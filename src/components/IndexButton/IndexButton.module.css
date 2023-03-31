@@ -1,0 +1,22 @@
+.IndexButtonLink {
+  /* display: block; */
+  display: flex;
+  margin: 0;
+  text-decoration: none;
+  width: 100%;
+}
+
+.IndexButtonLink:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.IndexButtonLink > button {
+    /* text-decoration: none; */
+    background-color: transparent ;
+    border: none;
+}
+
+.IndexButtonLink:hover > button {
+    color: white;
+}
