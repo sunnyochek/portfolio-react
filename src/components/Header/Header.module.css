@@ -1,4 +1,7 @@
-.text {
-    font-size: 48px;
-    color: chocolate;
+h1 {
+    margin-bottom: 36px;
+    padding: 6px;
+    line-height: 0.9em;
+    font-size: 60px;
+    color: var(--black);
 }

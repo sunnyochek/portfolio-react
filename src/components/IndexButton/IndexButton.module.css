@@ -1,22 +1,28 @@
-.IndexButtonLink {
-  /* display: block; */
-  display: flex;
-  margin: 0;
+.IndexLink {
   text-decoration: none;
+}
+
+.IndexLink > button {
+  background-color: transparent;
   width: 100%;
+  padding: 3px 6px;
+  font-size: 1.5rem;
+  border: none;
+  text-align: left;
+  margin-bottom: 9px;
 }
 
-.IndexButtonLink:hover {
-    cursor: pointer;
-    background-color: black;
+.IndexLink:hover > button {
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }
 
-.IndexButtonLink > button {
-    /* text-decoration: none; */
-    background-color: transparent ;
-    border: none;
+.IndexLink > button::after {
+  content: " ←";
+  background-color: aquamarine;
 }
 
-.IndexButtonLink:hover > button {
-    color: white;
+.IndexLink:hover > button::after {
+  background-color: rgb(251, 69, 120);
 }

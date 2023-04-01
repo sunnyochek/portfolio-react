@@ -6,37 +6,23 @@
   padding: 0;
 }
 
-:root {
+*, :root {
   font-family: "Inter", sans-serif;
+
+  --my-padding: 12px;
+  --black: #010101;
+  --red: color(display-p3 0.94 0.19 0.04);
+  --yellow: rgb(255, 243, 79);
+  --medium-green: rgb(119, 221, 134);
+  --green: rgb(15, 157, 88);
 }
 
 @supports (font-variation-settings: normal) {
-  :root {
+  *, :root {
     font-family: "Inter var", sans-serif;
   }
 }
 
 body {
   font-size: 24px;
-}
-
-.App-names {
-  color: blue;
-  /* display: inline-flex; */
-  gap: 12px;
-}
-
-.App-names::after {
-  content: " ←";
-  background-color: aquamarine;
-}
-
-.App-header {
-  background-color: #282c34;
-  align-items: left;
-  justify-content: center;
-  color: white;
-}
-* {
-  font-family: "Inter", sans-serif;
 }

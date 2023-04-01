@@ -1,9 +1,9 @@
-import styles from './IndexButton.module.css';
+import styles from "./IndexButton.module.css";
 
-export const IndexButton = ({href, text}) => {
-    return (
-    <a href={href} className={styles.IndexButtonLink}>
-        <button>{text}</button>
+export const IndexButton = ({ href, label }) => {
+  return (
+    <a href={href} className={styles.IndexLink}>
+      <button>{label} </button>
     </a>
-    )
-}
+  );
+};
