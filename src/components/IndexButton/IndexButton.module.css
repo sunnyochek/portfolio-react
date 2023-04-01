@@ -3,18 +3,19 @@
 }
 
 .IndexLink > button {
-  background-color: transparent;
-  width: 100%;
-  padding: 3px 6px;
-  font-size: 1.5rem;
-  border: none;
-  text-align: left;
-  margin-bottom: 9px;
+    width: 100%;
+    padding: 3px 6px;
+    font-size: 1.5rem;
+    border: none;
+    text-align: left;
+    margin-bottom: 9px;
+    color: var(--black);
+    background-color: transparent;
 }
 
 .IndexLink:hover > button {
   color: white;
-  background-color: black;
+  background-color: var(--black);
   cursor: pointer;
 }
 
